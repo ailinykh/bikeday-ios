@@ -14,10 +14,10 @@ class BikedayServiceTests: XCTestCase {
         let service = NetworkServiceMock() {_, completion in
             let data = """
             [
-            {"type": "", "category": "", "title": ""},
-            {"type": "", "category": "", "title": ""},
-            {"type": "", "category": "", "title": ""},
-            {"type": "", "category": "", "title": ""}
+            {"type": "1", "category": "1", "title": "1"},
+            {"type": "2", "category": "2", "title": "2"},
+            {"type": "3", "category": "3", "title": "3"},
+            {"type": "4", "category": "4", "title": "4"}
             ]
             """.data(using: .utf8)
             completion(data, nil, nil)

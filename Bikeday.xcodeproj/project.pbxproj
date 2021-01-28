@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		73B639C225C2AAB000AAC4CD /* FeedCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B639C125C2AAB000AAC4CD /* FeedCollectionViewController.swift */; };
+		73B639C325C2AAB000AAC4CD /* FeedCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B639C125C2AAB000AAC4CD /* FeedCollectionViewController.swift */; };
+		73B639C825C2AD3C00AAC4CD /* FeedCollectionViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B639C725C2AD3C00AAC4CD /* FeedCollectionViewControllerTests.swift */; };
+		73B639CD25C3111800AAC4CD /* BikedayServiceFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B639CC25C3111800AAC4CD /* BikedayServiceFacade.swift */; };
+		73B639CE25C3111800AAC4CD /* BikedayServiceFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B639CC25C3111800AAC4CD /* BikedayServiceFacade.swift */; };
+		73B639D325C3114400AAC4CD /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B639D225C3114400AAC4CD /* APIService.swift */; };
+		73B639D425C3114400AAC4CD /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B639D225C3114400AAC4CD /* APIService.swift */; };
 		73EE5A8425BE06B7001EECAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EE5A8325BE06B7001EECAD /* AppDelegate.swift */; };
 		73EE5A8625BE06B7001EECAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EE5A8525BE06B7001EECAD /* SceneDelegate.swift */; };
 		73EE5A8825BE06B7001EECAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EE5A8725BE06B7001EECAD /* ViewController.swift */; };
@@ -37,6 +44,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		73B639C125C2AAB000AAC4CD /* FeedCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCollectionViewController.swift; sourceTree = "<group>"; };
+		73B639C725C2AD3C00AAC4CD /* FeedCollectionViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCollectionViewControllerTests.swift; sourceTree = "<group>"; };
+		73B639CC25C3111800AAC4CD /* BikedayServiceFacade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikedayServiceFacade.swift; sourceTree = "<group>"; };
+		73B639D225C3114400AAC4CD /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		73EE5A8025BE06B7001EECAD /* Bikeday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bikeday.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73EE5A8325BE06B7001EECAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73EE5A8525BE06B7001EECAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +90,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		73B639DE25C311CB00AAC4CD /* API */ = {
+			isa = PBXGroup;
+			children = (
+				73B639D225C3114400AAC4CD /* APIService.swift */,
+				73EE5AC725C143CA001EECAD /* BikedayService.swift */,
+				73B639CC25C3111800AAC4CD /* BikedayServiceFacade.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
 		73EE5A7725BE06B7001EECAD = {
 			isa = PBXGroup;
 			children = (
@@ -102,9 +123,10 @@
 		73EE5A8225BE06B7001EECAD /* Bikeday */ = {
 			isa = PBXGroup;
 			children = (
+				73B639DE25C311CB00AAC4CD /* API */,
 				73EE5A8325BE06B7001EECAD /* AppDelegate.swift */,
 				73EE5A8C25BE06B9001EECAD /* Assets.xcassets */,
-				73EE5AC725C143CA001EECAD /* BikedayService.swift */,
+				73B639C125C2AAB000AAC4CD /* FeedCollectionViewController.swift */,
 				73EE5A9125BE06B9001EECAD /* Info.plist */,
 				73EE5A8E25BE06B9001EECAD /* LaunchScreen.storyboard */,
 				73EE5A8925BE06B7001EECAD /* Main.storyboard */,
@@ -119,6 +141,7 @@
 			children = (
 				73EE5A9C25BE06B9001EECAD /* Info.plist */,
 				73EE5AC225C13F7A001EECAD /* BikedayServiceTests.swift */,
+				73B639C725C2AD3C00AAC4CD /* FeedCollectionViewControllerTests.swift */,
 			);
 			path = BikedayTests;
 			sourceTree = "<group>";
@@ -263,7 +286,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				73EE5A8825BE06B7001EECAD /* ViewController.swift in Sources */,
+				73B639D325C3114400AAC4CD /* APIService.swift in Sources */,
+				73B639C225C2AAB000AAC4CD /* FeedCollectionViewController.swift in Sources */,
 				73EE5AC825C143CA001EECAD /* BikedayService.swift in Sources */,
+				73B639CD25C3111800AAC4CD /* BikedayServiceFacade.swift in Sources */,
 				73EE5A8425BE06B7001EECAD /* AppDelegate.swift in Sources */,
 				73EE5A8625BE06B7001EECAD /* SceneDelegate.swift in Sources */,
 			);
@@ -273,7 +299,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73B639CE25C3111800AAC4CD /* BikedayServiceFacade.swift in Sources */,
+				73B639C825C2AD3C00AAC4CD /* FeedCollectionViewControllerTests.swift in Sources */,
 				73EE5AC925C143CA001EECAD /* BikedayService.swift in Sources */,
+				73B639C325C2AAB000AAC4CD /* FeedCollectionViewController.swift in Sources */,
+				73B639D425C3114400AAC4CD /* APIService.swift in Sources */,
 				73EE5AC325C13F7A001EECAD /* BikedayServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

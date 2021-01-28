@@ -7,30 +7,24 @@
 
 import Foundation
 
-struct FeedItem: Decodable {
-    let type: String
-    let category: String
-    let title: String
-}
-
 protocol NetworkService {
-    func fetch(url: URL, _ completion: @escaping (Data?, URLResponse?, Error?) -> ())
+    func fetch(url: URL, _ completion: @escaping (Data?, URLResponse?, Error?) -> Void)
 }
 
 extension URLSession: NetworkService {
-    func fetch(url: URL, _ completion: @escaping (Data?, URLResponse?, Error?) -> ()) {
+    func fetch(url: URL, _ completion: @escaping (Data?, URLResponse?, Error?) -> Void) {
         self.dataTask(with: url, completionHandler: completion).resume()
     }
 }
 
-class BikedayService {
+class BikedayService: APIService {
     var service: NetworkService!
     
     init(service: NetworkService? = URLSession.shared) {
         self.service = service
     }
     
-    func fetchFeed(_ completion: @escaping ([FeedItem]?, Error?) -> ()) {
+    func fetchFeed(_ completion: @escaping ([FeedItem]?, Error?) -> Void) {
         let url = URL(string: "https://bikeday.me/api/feed")!
         service.fetch(url: url) { (data, resp, error) in
             guard error == nil else {

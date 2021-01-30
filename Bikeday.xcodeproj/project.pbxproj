@@ -10,8 +10,8 @@
 		73B639C225C2AAB000AAC4CD /* FeedCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B639C125C2AAB000AAC4CD /* FeedCollectionViewController.swift */; };
 		73B639C325C2AAB000AAC4CD /* FeedCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B639C125C2AAB000AAC4CD /* FeedCollectionViewController.swift */; };
 		73B639C825C2AD3C00AAC4CD /* FeedCollectionViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B639C725C2AD3C00AAC4CD /* FeedCollectionViewControllerTests.swift */; };
-		73B639CD25C3111800AAC4CD /* BikedayServiceFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B639CC25C3111800AAC4CD /* BikedayServiceFacade.swift */; };
-		73B639CE25C3111800AAC4CD /* BikedayServiceFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B639CC25C3111800AAC4CD /* BikedayServiceFacade.swift */; };
+		73B639CD25C3111800AAC4CD /* APIServiceOnMainQueueDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B639CC25C3111800AAC4CD /* APIServiceOnMainQueueDispatcher.swift */; };
+		73B639CE25C3111800AAC4CD /* APIServiceOnMainQueueDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B639CC25C3111800AAC4CD /* APIServiceOnMainQueueDispatcher.swift */; };
 		73B639D325C3114400AAC4CD /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B639D225C3114400AAC4CD /* APIService.swift */; };
 		73B639D425C3114400AAC4CD /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B639D225C3114400AAC4CD /* APIService.swift */; };
 		73B639EE25C3363500AAC4CD /* AnnouncementCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B639ED25C3363500AAC4CD /* AnnouncementCollectionViewCell.swift */; };
@@ -60,7 +60,7 @@
 /* Begin PBXFileReference section */
 		73B639C125C2AAB000AAC4CD /* FeedCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCollectionViewController.swift; sourceTree = "<group>"; };
 		73B639C725C2AD3C00AAC4CD /* FeedCollectionViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCollectionViewControllerTests.swift; sourceTree = "<group>"; };
-		73B639CC25C3111800AAC4CD /* BikedayServiceFacade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikedayServiceFacade.swift; sourceTree = "<group>"; };
+		73B639CC25C3111800AAC4CD /* APIServiceOnMainQueueDispatcher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIServiceOnMainQueueDispatcher.swift; sourceTree = "<group>"; };
 		73B639D225C3114400AAC4CD /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
 		73B639ED25C3363500AAC4CD /* AnnouncementCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementCollectionViewCell.swift; sourceTree = "<group>"; };
 		73B639F525C3364900AAC4CD /* PromotionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -116,7 +116,7 @@
 			children = (
 				73B639D225C3114400AAC4CD /* APIService.swift */,
 				73EE5AC725C143CA001EECAD /* BikedayService.swift */,
-				73B639CC25C3111800AAC4CD /* BikedayServiceFacade.swift */,
+				73B639CC25C3111800AAC4CD /* APIServiceOnMainQueueDispatcher.swift */,
 			);
 			path = API;
 			sourceTree = "<group>";
@@ -340,7 +340,7 @@
 				73B63A0025C3366800AAC4CD /* TimetableCollectionViewCell.swift in Sources */,
 				73B63A1825C3376F00AAC4CD /* FeedItemCollectionViewCell.swift in Sources */,
 				73B63A0525C3369300AAC4CD /* UpdateCollectionViewCell.swift in Sources */,
-				73B639CD25C3111800AAC4CD /* BikedayServiceFacade.swift in Sources */,
+				73B639CD25C3111800AAC4CD /* APIServiceOnMainQueueDispatcher.swift in Sources */,
 				73EE5A8425BE06B7001EECAD /* AppDelegate.swift in Sources */,
 				73B639F625C3364900AAC4CD /* PromotionCollectionViewCell.swift in Sources */,
 				73EE5A8625BE06B7001EECAD /* SceneDelegate.swift in Sources */,
@@ -354,7 +354,7 @@
 				73B63A1325C336C200AAC4CD /* UpdateCollectionViewCell.swift in Sources */,
 				73B63A1225C336C200AAC4CD /* TimetableCollectionViewCell.swift in Sources */,
 				73B63A1925C3376F00AAC4CD /* FeedItemCollectionViewCell.swift in Sources */,
-				73B639CE25C3111800AAC4CD /* BikedayServiceFacade.swift in Sources */,
+				73B639CE25C3111800AAC4CD /* APIServiceOnMainQueueDispatcher.swift in Sources */,
 				73B639C825C2AD3C00AAC4CD /* FeedCollectionViewControllerTests.swift in Sources */,
 				73EE5AC925C143CA001EECAD /* BikedayService.swift in Sources */,
 				73B63A0925C336BB00AAC4CD /* AnnouncementCollectionViewCell.swift in Sources */,

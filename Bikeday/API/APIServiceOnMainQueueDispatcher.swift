@@ -8,9 +8,9 @@
 import Foundation
 
 class APIServiceOnMainQueueDispatcher: APIService {
-    var service: BikedayService!
+    var service: APIService!
     
-    init(service: BikedayService) {
+    init(service: APIService) {
         self.service = service
     }
     

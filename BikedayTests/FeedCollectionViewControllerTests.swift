@@ -9,10 +9,14 @@ import XCTest
 
 class FeedCollectionViewControllerTests: XCTestCase {
 
+    func makeItem(type: FeedItemType = .announcement, category: String = "Category", title: String = "Title") -> FeedItem {
+        return FeedItem(type: type, category: category, title: title, backgroundImageURL: nil)
+    }
+    
     func test_FeedViewController_loadsFeed() {
         let items = [
-            FeedItem(type: "1", category: "1", title: "1"),
-            FeedItem(type: "2", category: "2", title: "2")
+            makeItem(type: .announcement),
+            makeItem(type: .gallery),
         ]
         let service = BikedayServiceMock(items: items)
         let sut = FeedCollectionViewController(service: service)

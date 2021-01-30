@@ -14,6 +14,20 @@
 		73B639CE25C3111800AAC4CD /* BikedayServiceFacade.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B639CC25C3111800AAC4CD /* BikedayServiceFacade.swift */; };
 		73B639D325C3114400AAC4CD /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B639D225C3114400AAC4CD /* APIService.swift */; };
 		73B639D425C3114400AAC4CD /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B639D225C3114400AAC4CD /* APIService.swift */; };
+		73B639EE25C3363500AAC4CD /* AnnouncementCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B639ED25C3363500AAC4CD /* AnnouncementCollectionViewCell.swift */; };
+		73B639F625C3364900AAC4CD /* PromotionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B639F525C3364900AAC4CD /* PromotionCollectionViewCell.swift */; };
+		73B639FB25C3365500AAC4CD /* GalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B639FA25C3365500AAC4CD /* GalleryCollectionViewCell.swift */; };
+		73B63A0025C3366800AAC4CD /* TimetableCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B639FF25C3366800AAC4CD /* TimetableCollectionViewCell.swift */; };
+		73B63A0525C3369300AAC4CD /* UpdateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B63A0425C3369300AAC4CD /* UpdateCollectionViewCell.swift */; };
+		73B63A0925C336BB00AAC4CD /* AnnouncementCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B639ED25C3363500AAC4CD /* AnnouncementCollectionViewCell.swift */; };
+		73B63A0D25C336BE00AAC4CD /* PromotionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B639F525C3364900AAC4CD /* PromotionCollectionViewCell.swift */; };
+		73B63A1125C336C200AAC4CD /* GalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B639FA25C3365500AAC4CD /* GalleryCollectionViewCell.swift */; };
+		73B63A1225C336C200AAC4CD /* TimetableCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B639FF25C3366800AAC4CD /* TimetableCollectionViewCell.swift */; };
+		73B63A1325C336C200AAC4CD /* UpdateCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B63A0425C3369300AAC4CD /* UpdateCollectionViewCell.swift */; };
+		73B63A1825C3376F00AAC4CD /* FeedItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B63A1725C3376F00AAC4CD /* FeedItemCollectionViewCell.swift */; };
+		73B63A1925C3376F00AAC4CD /* FeedItemCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B63A1725C3376F00AAC4CD /* FeedItemCollectionViewCell.swift */; };
+		73B63A1E25C33B5700AAC4CD /* AnnouncementCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73B63A1D25C33B5700AAC4CD /* AnnouncementCollectionViewCell.xib */; };
+		73B63A1F25C33B5700AAC4CD /* AnnouncementCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 73B63A1D25C33B5700AAC4CD /* AnnouncementCollectionViewCell.xib */; };
 		73EE5A8425BE06B7001EECAD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EE5A8325BE06B7001EECAD /* AppDelegate.swift */; };
 		73EE5A8625BE06B7001EECAD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EE5A8525BE06B7001EECAD /* SceneDelegate.swift */; };
 		73EE5A8825BE06B7001EECAD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73EE5A8725BE06B7001EECAD /* ViewController.swift */; };
@@ -48,6 +62,13 @@
 		73B639C725C2AD3C00AAC4CD /* FeedCollectionViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCollectionViewControllerTests.swift; sourceTree = "<group>"; };
 		73B639CC25C3111800AAC4CD /* BikedayServiceFacade.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikedayServiceFacade.swift; sourceTree = "<group>"; };
 		73B639D225C3114400AAC4CD /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		73B639ED25C3363500AAC4CD /* AnnouncementCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementCollectionViewCell.swift; sourceTree = "<group>"; };
+		73B639F525C3364900AAC4CD /* PromotionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromotionCollectionViewCell.swift; sourceTree = "<group>"; };
+		73B639FA25C3365500AAC4CD /* GalleryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewCell.swift; sourceTree = "<group>"; };
+		73B639FF25C3366800AAC4CD /* TimetableCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimetableCollectionViewCell.swift; sourceTree = "<group>"; };
+		73B63A0425C3369300AAC4CD /* UpdateCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpdateCollectionViewCell.swift; sourceTree = "<group>"; };
+		73B63A1725C3376F00AAC4CD /* FeedItemCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItemCollectionViewCell.swift; sourceTree = "<group>"; };
+		73B63A1D25C33B5700AAC4CD /* AnnouncementCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AnnouncementCollectionViewCell.xib; sourceTree = "<group>"; };
 		73EE5A8025BE06B7001EECAD /* Bikeday.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bikeday.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		73EE5A8325BE06B7001EECAD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		73EE5A8525BE06B7001EECAD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -100,6 +121,29 @@
 			path = API;
 			sourceTree = "<group>";
 		};
+		73B639E525C335FA00AAC4CD /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				73B639EC25C3360100AAC4CD /* Cells */,
+				73B639C125C2AAB000AAC4CD /* FeedCollectionViewController.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
+		73B639EC25C3360100AAC4CD /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				73B639ED25C3363500AAC4CD /* AnnouncementCollectionViewCell.swift */,
+				73B63A1D25C33B5700AAC4CD /* AnnouncementCollectionViewCell.xib */,
+				73B63A1725C3376F00AAC4CD /* FeedItemCollectionViewCell.swift */,
+				73B639FA25C3365500AAC4CD /* GalleryCollectionViewCell.swift */,
+				73B639F525C3364900AAC4CD /* PromotionCollectionViewCell.swift */,
+				73B639FF25C3366800AAC4CD /* TimetableCollectionViewCell.swift */,
+				73B63A0425C3369300AAC4CD /* UpdateCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
 		73EE5A7725BE06B7001EECAD = {
 			isa = PBXGroup;
 			children = (
@@ -126,7 +170,7 @@
 				73B639DE25C311CB00AAC4CD /* API */,
 				73EE5A8325BE06B7001EECAD /* AppDelegate.swift */,
 				73EE5A8C25BE06B9001EECAD /* Assets.xcassets */,
-				73B639C125C2AAB000AAC4CD /* FeedCollectionViewController.swift */,
+				73B639E525C335FA00AAC4CD /* Feed */,
 				73EE5A9125BE06B9001EECAD /* Info.plist */,
 				73EE5A8E25BE06B9001EECAD /* LaunchScreen.storyboard */,
 				73EE5A8925BE06B7001EECAD /* Main.storyboard */,
@@ -259,6 +303,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				73EE5A9025BE06B9001EECAD /* LaunchScreen.storyboard in Resources */,
+				73B63A1E25C33B5700AAC4CD /* AnnouncementCollectionViewCell.xib in Resources */,
 				73EE5A8D25BE06B9001EECAD /* Assets.xcassets in Resources */,
 				73EE5A8B25BE06B7001EECAD /* Main.storyboard in Resources */,
 			);
@@ -268,6 +313,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73B63A1F25C33B5700AAC4CD /* AnnouncementCollectionViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -286,11 +332,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				73EE5A8825BE06B7001EECAD /* ViewController.swift in Sources */,
+				73B639FB25C3365500AAC4CD /* GalleryCollectionViewCell.swift in Sources */,
+				73B639EE25C3363500AAC4CD /* AnnouncementCollectionViewCell.swift in Sources */,
 				73B639D325C3114400AAC4CD /* APIService.swift in Sources */,
 				73B639C225C2AAB000AAC4CD /* FeedCollectionViewController.swift in Sources */,
 				73EE5AC825C143CA001EECAD /* BikedayService.swift in Sources */,
+				73B63A0025C3366800AAC4CD /* TimetableCollectionViewCell.swift in Sources */,
+				73B63A1825C3376F00AAC4CD /* FeedItemCollectionViewCell.swift in Sources */,
+				73B63A0525C3369300AAC4CD /* UpdateCollectionViewCell.swift in Sources */,
 				73B639CD25C3111800AAC4CD /* BikedayServiceFacade.swift in Sources */,
 				73EE5A8425BE06B7001EECAD /* AppDelegate.swift in Sources */,
+				73B639F625C3364900AAC4CD /* PromotionCollectionViewCell.swift in Sources */,
 				73EE5A8625BE06B7001EECAD /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -299,11 +351,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				73B63A1325C336C200AAC4CD /* UpdateCollectionViewCell.swift in Sources */,
+				73B63A1225C336C200AAC4CD /* TimetableCollectionViewCell.swift in Sources */,
+				73B63A1925C3376F00AAC4CD /* FeedItemCollectionViewCell.swift in Sources */,
 				73B639CE25C3111800AAC4CD /* BikedayServiceFacade.swift in Sources */,
 				73B639C825C2AD3C00AAC4CD /* FeedCollectionViewControllerTests.swift in Sources */,
 				73EE5AC925C143CA001EECAD /* BikedayService.swift in Sources */,
+				73B63A0925C336BB00AAC4CD /* AnnouncementCollectionViewCell.swift in Sources */,
 				73B639C325C2AAB000AAC4CD /* FeedCollectionViewController.swift in Sources */,
 				73B639D425C3114400AAC4CD /* APIService.swift in Sources */,
+				73B63A0D25C336BE00AAC4CD /* PromotionCollectionViewCell.swift in Sources */,
+				73B63A1125C336C200AAC4CD /* GalleryCollectionViewCell.swift in Sources */,
 				73EE5AC325C13F7A001EECAD /* BikedayServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -26,10 +26,14 @@ class BikedayServiceTests: XCTestCase {
         let sut = BikedayService(service: service)
         let exp = expectation(description: "Waits for feed to loading")
         
-        sut.fetchFeed() { items, error in
-            XCTAssertNil(error)
-            XCTAssertNotNil(items)
-            XCTAssertEqual(items?.count, 4)
+        sut.fetchFeed() { result in
+            switch result {
+            case .failure(_):
+                XCTFail("Not tested yet")
+            case .success(let items):
+                XCTAssertNotNil(items)
+                XCTAssertEqual(items.count, 4)
+            }
             exp.fulfill()
         }
         
@@ -50,11 +54,14 @@ class BikedayServiceTests: XCTestCase {
         let sut = BikedayService(service: service)
         let exp = expectation(description: "Waits for feed to loading")
         
-        sut.fetchFeed() { items, error in
-            XCTAssertNil(error)
-            XCTAssertNotNil(items)
-            XCTAssertEqual(items?.count, 2)
-            XCTAssertEqual(items?.last?.type, .unknown)
+        sut.fetchFeed() { result in
+            switch result {
+            case .failure(_):
+                XCTFail("Not tested yet")
+            case .success(let items):
+                XCTAssertEqual(items.count, 2)
+                XCTAssertEqual(items.last?.type, .unknown)
+            }
             exp.fulfill()
         }
         

@@ -14,10 +14,10 @@ class BikedayServiceFacade: APIService {
         self.service = service
     }
     
-    func fetchFeed(_ completion: @escaping ([FeedItem]?, Error?) -> Void) {
-        service.fetchFeed() { items, error in
+    func fetchFeed(_ completion: @escaping (FeedResult) -> Void) {
+        service.fetchFeed() { result in
             DispatchQueue.main.async {
-                completion(items, error)
+                completion(result)
             }
         }
     }

@@ -31,10 +31,14 @@ class FeedCollectionViewController: UICollectionViewController {
         collectionView.register(TimetableCollectionViewCell.self, forCellWithReuseIdentifier: FeedItemType.timetable.rawValue)
         collectionView.backgroundColor = .systemBackground
         
-        service.fetchFeed() { [weak self] items, error in
-            guard error == nil else { return }
-                self?.items = items!
+        service.fetchFeed() { [weak self] result in
+            switch result {
+            case .failure:
+                return
+            case .success(let items):
+                self?.items = items
                 self?.collectionView.reloadData()
+            }
         }
     }
 

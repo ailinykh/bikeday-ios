@@ -35,7 +35,10 @@ class BikedayServiceMock: BikedayService {
         self.items = items
     }
     
-    override func fetchFeed(_ completion: @escaping ([FeedItem]?, Error?) -> ()) {
-            completion(items, nil)
+    override func fetchFeed(_ completion: @escaping (FeedResult) -> ()) {
+        completion(FeedResult(catching: { () -> [FeedItem] in
+            guard let items = items else { throw NSError(domain: "", code: 0) }
+            return items
+        }))
     }
 }

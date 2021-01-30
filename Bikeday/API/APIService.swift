@@ -37,6 +37,8 @@ struct FeedItem: Decodable {
     let backgroundImageURL: URL?
 }
 
+typealias FeedResult = Swift.Result<[FeedItem], Error>
+
 protocol APIService {
-    func fetchFeed(_ completion: @escaping ([FeedItem]?, Error?) -> Void)
+    func fetchFeed(_ completion: @escaping (FeedResult) -> Void)
 }

@@ -24,22 +24,12 @@ class BikedayService: APIService {
         self.service = service
     }
     
-    func fetchFeed(_ completion: @escaping ([FeedItem]?, Error?) -> Void) {
+    func fetchFeed(_ completion: @escaping (FeedResult) -> Void) {
         let url = URL(string: "https://bikeday.me/api/feed")!
         service.fetch(url: url) { (data, resp, error) in
-            guard error == nil else {
-                completion(nil, error)
-                return
-            }
-            
-            guard let data = data else { return }
-            
-            do {
-                let object = try JSONDecoder().decode([FeedItem].self, from: data)
-                completion(object, nil)
-            } catch {
-                completion(nil, error)
-            }
+            completion(FeedResult(catching: { () -> [FeedItem] in
+                try JSONDecoder().decode([FeedItem].self, from: data!)
+            }))
         }
     }
 }
